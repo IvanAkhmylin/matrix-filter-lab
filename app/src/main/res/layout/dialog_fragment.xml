@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top">
+    <EditText
+        android:inputType="phone"
+        android:layout_margin="8dp"
+        android:id="@+id/edit_1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="phone"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@id/edit_1"
+        android:id="@+id/edit_2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="phone"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@id/edit_2"
+        android:id="@+id/edit_3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="phone"
+        android:layout_margin="8dp"
+        android:layout_below="@id/edit_1"
+        android:id="@+id/edit_4"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="phone"
+        android:layout_margin="8dp"
+        android:layout_below="@id/edit_1"
+        android:layout_toRightOf="@id/edit_4"
+        android:id="@+id/edit_5"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="phone"
+        android:layout_margin="8dp"
+        android:layout_below="@id/edit_3"
+        android:layout_toRightOf="@id/edit_5"
+        android:id="@+id/edit_6"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="phone"
+        android:layout_margin="8dp"
+        android:layout_below="@id/edit_4"
+        android:id="@+id/edit_7"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="phone"
+        android:layout_margin="8dp"
+        android:layout_below="@id/edit_4"
+        android:layout_toRightOf="@id/edit_7"
+        android:id="@+id/edit_8"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="phone"
+        android:layout_margin="8dp"
+        android:layout_below="@id/edit_4"
+        android:layout_toRightOf="@id/edit_8"
+        android:id="@+id/edit_9"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

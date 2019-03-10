@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:padding="8dp">
+    <LinearLayout
+        android:layout_marginTop="55dp"
+        android:id="@+id/containerImage"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:layout_below="@id/containerImage"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:id="@+id/image_height_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/containerButtons"
+        android:layout_below="@id/image_height_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+
+            android:id="@+id/spinner"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_save"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:onClick="btn_SaveImage"
+            android:text="Save Image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+
+
+
+

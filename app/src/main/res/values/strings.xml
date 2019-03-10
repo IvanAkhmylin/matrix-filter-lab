@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Computer Graphics Lab</string>
+    <string name="action_settings">Settings</string>
+    <array name="settings" >
+        <item>Customization</item>
+        <item>Black and White</item>
+        <item>Sharpness</item>
+        <item>Blur</item>
+        <item>Emboss</item>
+        <item>Custom Filter</item>
+    </array>
+</resources>
